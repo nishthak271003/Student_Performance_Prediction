@@ -2,6 +2,9 @@
 
 A hybrid project built using **Java**, **MySQL**, and **Python** to track student data, analyze academic performance, and predict future scores using machine learning. This project also integrates **Power BI/Excel** for insightful visualizations.
 
+
+<img width="1052" height="333" alt="image" src="https://github.com/user-attachments/assets/168f1522-7820-42a2-a249-847f3695da08" />
+
 ---
 
 ## Technologies Used
@@ -70,4 +73,14 @@ StudentPerformanceTracker/
 - Real-time dashboard with Power BI Service
 
 ---
+## OUTPUTS (IMAGES OF THE FINAL PREDICTIONS)
+
+<img width="1152" height="616" alt="predicted_score_VS_assignment_score" src="https://github.com/user-attachments/assets/ce03bc99-9462-44f4-abb1-9eed7b0f165e" />
+
+
+<img width="1001" height="602" alt="student_wise_comparison" src="https://github.com/user-attachments/assets/81c63fdb-7f1a-4b8b-96e3-471a0990bf57" />
+
+
+<img width="943" height="503" alt="image" src="https://github.com/user-attachments/assets/cbdb666b-c1d1-4900-b32a-a5ad95c0b048" />
+
 
