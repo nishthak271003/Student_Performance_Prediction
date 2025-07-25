@@ -1,0 +1,5 @@
+
+MYSQL-connector 
+pandas
+scikit-learn
+numpy

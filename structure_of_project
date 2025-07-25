@@ -1,0 +1,32 @@
+                                               STRUCTURE OF THE PROJECT
+
+Student-Performance-Predictor
+
+
+│
+├── JavaUI/                                                      # Java files (Eclipse project)
+│   └── StudentForm.java
+        StudentDatabase.java
+│
+├── PythonModel/CSV                                               # Jupyter notebook & ML code
+│   └── export_students.py
+        training_model.iypnb
+        predict_from_file.ipynb
+        student_model.pkl
+        predict_input.csv
+        predict_out.csv
+        
+        └── requirements.txt                                        # Python dependencies (optional)
+
+        
+│
+├── Database                                                        # SQL schema or exported data
+│   └── student.sql  
+
+│
+├──Images                                                           # Visualizations (Excel screenshots, graphs)
+│   └──predicted_score_VS_assignment_score.png
+       student_wise_comparison.png
+       correlation_heatmap.png 
+│
+├── README.md                                                       # Documentation

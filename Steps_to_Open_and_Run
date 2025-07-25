@@ -1,0 +1,52 @@
+
+**STEP 1: Setup MySQL Database**  
+
+Open MySQL Workbench.
+Create a new schema (e.g., student_performance).
+Import table:
+Go to File → Open SQL Script, choose student_data.sql or import student_data.csv from the database folder.
+Execute the SQL script or use Table Data Import Wizard to load CSV.
+
+✅ Confirm that the table (student_table) contains fields like:
+
+Name, RollNo, Attendance, Hours_Studied, Marks, etc.
+
+-----------------------------------------------------------------------------
+
+**STEP 2: Run Java UI (Student Data Entry)**
+
+Open Eclipse or any Java IDE.
+Open the `StudentForm.java` file in Eclipse.
+- Then open `StudentDatabase` to make the database to connect to the back.
+- Add the required JAR files from the `JAR FILES` document.
+Import the folder java-ui/ as a Java Project.
+Open and run StudentForm.java.
+Ensure JDBC is configured.
+
+Fill in form details → Click Submit → Data gets inserted into MySQL.
+------------------------------------------------------------------------------
+
+**STEP 3: Run Python Notebook (ML Prediction + Charts)**
+
+Open Jupyter Notebook / VS Code.
+
+ Open `Export_students.py` to export the stored csv file into the jyupter notebook.
+- Open `training_model.ipynb` to train the model and performing the tests.
+- The trained model is stored in `student_model.pkl` 
+- Now, the prediction is performed on the predicted input of the `predict_input.csv` file  in the `predict_from_file.iypnb` file  
+- The output is then automatically stored in `predict_out.csv`.
+ 
+Plots charts (correlation heatmap, scatter plot, etc.)
+
+-----------------------------------------------------------------------------
+
+**STEP 4: View Dashboard (Power BI or Excel)**
+
+-The visulization is then performed on the predicted output.
+The outputs are stored in the `Images` folder.
+View charts like:
+
+Attendance vs Marks
+Subject-wise performance
+-------------------------------------------------------------------------------
+
